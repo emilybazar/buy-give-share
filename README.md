@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The Buy Give Share project is designed to connect businesses and charities to facilitate transparent donations. This document outlines the project's architecture, including the backend server setup and the frontend application structure, which is built using React.
+Buy Give Share is a platform designed to connect businesses and charities to facilitate transparent donations. This document outlines the project's architecture, including the backend server setup and the frontend application structure, which is built using React.
 
 ## Technology Stack
 
@@ -36,7 +36,8 @@ Developed using React and organized into components and utility files.
 
 ## Usage
 
-The Buy Give Share project will eventually be published and hosted on [buygiveshare.com](http://buygiveshare.com). Users will be able to access the application through this domain.
+The Buy Give Share project will eventually be published and hosted on [buygiveshare.com](http://buygiveshare.com). Users will be able to access the application through this domain. 
+The platform will connect with Clover's API to allow businesses and charities to track and manage donations seamlessly.
 
 
 ## License
