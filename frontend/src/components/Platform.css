@@ -1,7 +1,7 @@
 .platform {
     position: relative;
     text-align: center;
-    padding: 5vh 13vw;
+    padding: 5vh 10vw;
     background-color: #EBF9FF;
 }
 
@@ -10,8 +10,9 @@
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: calc(100% - 26vw);
-    height: 15vh;
+    width: calc(100% - 20vw);
+    height: auto;
+    min-height: 15vh;
     background-color: rgba(103, 124, 132, 0.13);
     z-index: 0;
     border-radius: 10px;
@@ -33,12 +34,14 @@
     gap: 5vw;
     margin-top: 8vh;
     z-index: 1;
+    flex-wrap: wrap;
 }
 
 .platform-logo {
     width: auto;
     position: relative;
     z-index: 2;
+    max-height: 10vh;
 }
 
 .platform-logo.clover {
@@ -47,4 +50,43 @@
 
 .platform-logo.square {
     height: 10vh;
+}
+
+@media (max-width: 768px) {
+    .platform {
+        padding: 5vh 5vw;
+    }
+
+    .platform h2 {
+        font-size: 2.5vh;
+    }
+
+    .platform-logos {
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    .platform-box {
+        width: calc(100% - 10vw);
+        top: 60%;
+        min-height: 10vh;
+    }
+
+    .platform-logo {
+        max-height: 8vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .platform h2 {
+        font-size: 2vh;
+    }
+
+    .platform-logos {
+        gap: 2vh;
+    }
+
+    .platform-logo {
+        max-height: 6vh;
+    }
 }
