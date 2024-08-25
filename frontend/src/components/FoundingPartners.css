@@ -1,7 +1,7 @@
 .founding-partners {
     position: relative;
     text-align: center;
-    padding: 5vh 13vw;
+    padding: 5vh 10vw;
     background-color: #EBF9FF;
 }
 
@@ -15,19 +15,20 @@
 
 .founding-partners-logos-container {
     position: relative;
-    margin-top: 4vh; /* Add some space between the title and logos */
+    margin-top: 4vh;
 }
 
 .founding-partners-box {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%; /* Adjust width to match the Hero and Platform sections */
+    transform: translate(-50%, -60%);
+    width: 100%;
     height: 15vh;
     background-color: rgba(103, 124, 132, 0.13);
     z-index: 0;
     border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
 .founding-partners-logos {
@@ -36,12 +37,15 @@
     align-items: center;
     gap: 5vw;
     z-index: 1;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .founding-partners-logo {
     width: auto;
     position: relative;
     z-index: 2;
+    max-height: 10vh;
 }
 
 .founding-partners-logo.madeinwashington {
@@ -58,4 +62,54 @@
 
 .founding-partners-logo.sr3 {
     height: 8vh;
+}
+
+@media (max-width: 768px) {
+    .founding-partners {
+        padding: 5vh 5vw;
+    }
+
+    .founding-partners h2 {
+        font-size: 2.5vh;
+    }
+
+    .founding-partners-logos {
+        flex-direction: column;
+        gap: 3vh;
+        position: relative;
+    }
+
+    .founding-partners-box {
+        top: 67%;
+        width: 60%;
+        height: auto;
+        min-height: 43vh;
+        transform: translate(-50%, -65%);
+    }
+
+    .founding-partners-logo {
+        max-height: 8vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .founding-partners h2 {
+        font-size: 2vh;
+    }
+
+    .founding-partners-logos {
+        gap: 2vh;
+    }
+
+    .founding-partners-box {
+        top: 70%;
+        width: 50%;
+        height: auto;
+        min-height: 45vh;
+        transform: translate(-50%, -70%);
+    }
+
+    .founding-partners-logo {
+        max-height: 6vh;
+    }
 }
