@@ -13,18 +13,17 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 15px;
-  width: 1440px;
+  gap: 1.25vw;
+  max-width: 90vw;
   margin: 0 auto;
-  padding: 0 20px;
-  min-height: 3959px;
+  padding: 2vh 2vw;
 }
 
 .full-width-content {
   grid-column: 1 / span 12;
   background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2vh 2vw;
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1);
 }
 
 .App-logo {
