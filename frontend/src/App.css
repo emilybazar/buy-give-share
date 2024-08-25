@@ -10,22 +10,6 @@ body {
   padding: 0;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 1.25vw;
-  max-width: 90vw;
-  margin: 0 auto;
-  padding: 2vh 2vw;
-}
-
-.full-width-content {
-  grid-column: 1 / span 12;
-  background-color: #fff;
-  padding: 2vh 2vw;
-  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1);
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
