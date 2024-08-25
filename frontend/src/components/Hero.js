@@ -16,7 +16,9 @@ function Hero() {
                 <div className="hero-left">
                     <h1>DONATIONS MADE TRANSPARENT</h1>
                     <p>Buy Give Share seamlessly connects businesses and charities through collaborative promotions.</p>
-                    <p>Charities create engaging impact videos to boost visibility and attract more supporters, while businesses benefit from seamless donation tracking through our integrated POS system.</p>
+                    <p>Our POS-integrated system ensures donations are automatically tracked and verified, giving
+                        charities peace of mind and businesses added transparency.</p>
+                    <p> What truly sets us apart is how we create shareable impact videos that drive traffic and engagement, amplifying the reach of both charities and businesses.</p>
                     <p>Join us in creating powerful community change today!</p>
                     <div className="hero-buttons">
                         <button className="btn-primary">Join as a Business</button>
