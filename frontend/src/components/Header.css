@@ -2,18 +2,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 2vh 13vw;
     background-color: #EBF9FF;
     color: white;
 }
 
 .logo img {
-    height: 50px;
+    height: 7vh;
     width: auto;
 }
 
 .navigation a {
-    margin: 0 15px;
+    margin: 0 1.04vw;
     color: black;
     text-decoration: none;
 }
