@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5vh 13vw;
+    padding: 3vh 10vw;
     background-color: #EBF9FF;
     color: white;
     font-size: 1.2rem;
@@ -13,16 +13,47 @@
 }
 
 .logo img {
-    height: 12vh;
+    height: 10vh;
     width: auto;
 }
 
 .navigation a {
-    margin: 0 1.04vw;
+    margin: 0 1vw;
     color: black;
     text-decoration: none;
 }
 
 .navigation a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 3vh 5vw;
+        font-size: 1rem;
+    }
+
+    .logo img {
+        height: 8vh;
+    }
+
+    .navigation a {
+        margin: 0 0.8vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 2vh 3vw;
+        font-size: 0.9rem;
+        flex-direction: column;
+    }
+
+    .logo img {
+        height: 6vh;
+    }
+
+    .navigation a {
+        margin: 0.5vh 0;
+    }
 }
