@@ -2,7 +2,10 @@
 
 ## Project Overview
 
-Buy Give Share is a platform designed to connect businesses and charities to facilitate transparent donations. This document outlines the project's architecture, including the backend server setup and the frontend application structure, which is built using React.
+Buy Give Share is a platform designed to connect businesses and charities to facilitate transparent donations. This document outlines the project's architecture, including the backend server setup and the frontend application structure.
+
+## Author
+Emily Bazar is the Chief Software Engineer at Buy Give Share. As the sole full-stack developer on the founding team of five, she leads the technical development of the platform, driving both the front-end and back-end engineering efforts.
 
 ## Technology Stack
 
