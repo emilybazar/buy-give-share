@@ -13,16 +13,7 @@ import Header from "./Header";
 function LandingPage() {
     return (
         <div className="landing-page">
-            <Header />
-
-            <section className="hero">
-                <h1>Welcome to Buy Give Share</h1>
-                <p>Your platform for meaningful contributions.</p>
-                <button>Get Started</button>
-            </section>
-
-            <footer>
-            </footer>
+            <Header/>
         </div>
     );
 }
