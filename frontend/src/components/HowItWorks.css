@@ -4,14 +4,16 @@
 
 .how-it-works-content {
     background-color: rgba(143, 197, 255, 0.5);
-    width: calc(100% - 10vw);
-    max-width: 90vw;
+    width: calc(100% - 26vw);
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 5vh 4vw;
+    padding: 5vh 2vw;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .how-it-works-info-container {
@@ -36,15 +38,17 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .section {
     background-color: #EBF4FF;
     padding: 3vh 2vw;
     border-radius: 10px;
-    flex: 1 1 45%;
-    margin: 1vh 1vw;
+    flex: 1;
+    margin: 0 1vw;
+    min-width: 250px;
+    box-sizing: border-box;
 }
 
 .section-title {
@@ -70,6 +74,7 @@ ul {
     list-style: none;
     margin-top: 2vh;
     padding: 0 0 0 2vw;
+    box-sizing: border-box;
 }
 
 ul li {
@@ -78,6 +83,7 @@ ul li {
     margin-bottom: 1.5vh;
     font-size: 2vh;
     color: #333;
+    min-width: 250px;
 }
 
 ul li img {
@@ -100,18 +106,20 @@ ul li img {
     .section {
         flex: 1 1 100%;
         margin: 2vh 0;
+        min-width: 90%;
     }
 
-    .how-it-works-info-content h2 {
-        font-size: 3.5vh;
-    }
-
-    .how-it-works-info-content p {
-        font-size: 2vh;
+    ul li {
+        min-width: 100%;
     }
 }
 
 @media (max-width: 480px) {
+    .how-it-works-content {
+        width: 95vw;
+        padding: 4vh 2vw;
+    }
+
     .how-it-works-info-content h2 {
         font-size: 3vh;
     }
@@ -122,5 +130,6 @@ ul li img {
 
     ul li {
         font-size: 1.8vh;
+        min-width: 100%;
     }
 }
