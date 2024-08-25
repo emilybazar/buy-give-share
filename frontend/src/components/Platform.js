@@ -8,8 +8,8 @@
 
 import React from 'react';
 import './Platform.css';
-import CloverLogo from '../assets/CloverLogo.png';
-import SquareLogo from '../assets/SquareLogo.png';
+import CloverLogo from '../assets/logos/CloverLogo.png';
+import SquareLogo from '../assets/logos/SquareLogo.png';
 
 function Platform() {
     return (

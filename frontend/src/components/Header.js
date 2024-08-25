@@ -8,7 +8,7 @@
 
 import React from 'react';
 import './Header.css';
-import logo from '../assets/BGSLogo.png';
+import logo from '../assets/logos/BGSLogo.png';
 
 
 const Header = () => {
