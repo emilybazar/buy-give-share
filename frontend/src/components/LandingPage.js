@@ -9,11 +9,13 @@
 import React from 'react';
 import './LandingPage.css';
 import Header from "./Header";
+import Hero from "./Hero";
 
 function LandingPage() {
     return (
         <div className="landing-page">
             <Header/>
+            <Hero />
         </div>
     );
 }
