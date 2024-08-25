@@ -11,6 +11,7 @@ import './LandingPage.css';
 import Header from "./Header";
 import Hero from "./Hero";
 import Platform from "./Platform";
+import HowItWorks from "./HowItWorks";
 
 function LandingPage() {
     return (
@@ -18,6 +19,7 @@ function LandingPage() {
             <Header/>
             <Hero />
             <Platform />
+            <HowItWorks />
         </div>
     );
 }
