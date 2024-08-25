@@ -2,14 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5vh 13vw; /* Matches the padding of the header */
+    padding: 5vh 13vw;
     background-color: #EBF9FF;
 }
 
 .hero-content {
     display: flex;
-    width: 100%; /* Full width within the padding */
-    gap: 2vw; /* Relative gap between left and right content */
+    width: 100%;
+    max-width: 1440px;
+    gap: 2vw;
 }
 
 .hero-left {
@@ -18,12 +19,12 @@
 }
 
 .hero-left h1 {
-    font-size: 4vh; /* Responsive font size */
+    font-size: 4vh;
     margin-bottom: 2vh;
 }
 
 .hero-left p {
-    font-size: 2vh; /* Responsive font size */
+    font-size: 2vh;
     margin-bottom: 2vh;
 }
 
@@ -32,26 +33,23 @@
     gap: 2vw;
 }
 
-.hero-buttons .btn-primary {
-    background-color: #61dafb;
-    color: #002C3D;
-    padding: 1.5vh 3vw; /* Responsive padding */
-    font-size: 2vh; /* Responsive font size */
+.hero-buttons .btn-primary, .hero-buttons .btn-secondary {
+    padding: 1.5vh 3vw;
+    font-size: 2vh;
     border: none;
     cursor: pointer;
     border-radius: 30px;
     font-weight: bold;
 }
 
+.hero-buttons .btn-primary {
+    background-color: #61dafb;
+    color: #002C3D;
+}
+
 .hero-buttons .btn-secondary {
     background-color: #282c34;
     color: white;
-    padding: 1.5vh 3vw; /* Responsive padding */
-    font-size: 2vh; /* Responsive font size */
-    border: none;
-    cursor: pointer;
-    border-radius: 30px;
-    font-weight: bold;
 }
 
 .hero-right {
