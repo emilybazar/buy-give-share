@@ -4,10 +4,10 @@
 
 .how-it-works-content {
     background-color: rgba(143, 197, 255, 0.5);
-    width: calc(100% - 26vw);
-    max-width: 1440px;
+    width: calc(100% - 10vw);
+    max-width: 90vw;
     margin: 0 auto;
-    padding: 5vh 2vw;
+    padding: 5vh 4vw;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -29,21 +29,22 @@
     font-size: 2.5vh;
     color: #333;
     margin-bottom: 1vh;
-    line-height: 0.5;
+    line-height: 1.5;
 }
 
 .businesses-charities-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .section {
     background-color: #EBF4FF;
     padding: 3vh 2vw;
     border-radius: 10px;
-    flex: 1;
-    margin: 0 1vw;
+    flex: 1 1 45%;
+    margin: 1vh 1vw;
 }
 
 .section-title {
@@ -83,4 +84,43 @@ ul li img {
     margin-right: 1vw;
     height: 3vh;
     width: 3vh;
+}
+
+@media (max-width: 768px) {
+    .how-it-works-content {
+        width: 90vw;
+        padding: 5vh 4vw;
+    }
+
+    .businesses-charities-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section {
+        flex: 1 1 100%;
+        margin: 2vh 0;
+    }
+
+    .how-it-works-info-content h2 {
+        font-size: 3.5vh;
+    }
+
+    .how-it-works-info-content p {
+        font-size: 2vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .how-it-works-info-content h2 {
+        font-size: 3vh;
+    }
+
+    .how-it-works-info-content p {
+        font-size: 1.8vh;
+    }
+
+    ul li {
+        font-size: 1.8vh;
+    }
 }
