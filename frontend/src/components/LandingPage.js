@@ -4,7 +4,7 @@
 // PURPOSE: This component renders the landing page.
 // INPUT:   No external inputs.
 // PROCESS: Uses React to build the layout and styling.
-// OUTPUT:  Renders the landing page with the sections: Header, Hero, Platform, OurImpact.
+// OUTPUT:  Renders the landing page with the sections: Header, Hero, Platform, OurImpact, GetStarted, and Footer.
 
 import React from 'react';
 import './LandingPage.css';
@@ -13,6 +13,7 @@ import Hero from "./Hero";
 import Platform from "./Platform";
 import HowItWorks from "./HowItWorks";
 import OurImpact from "./OurImpact";
+import GetStarted from "./GetStarted";
 
 function LandingPage() {
     return (
@@ -22,6 +23,7 @@ function LandingPage() {
             <Platform />
             <HowItWorks />
             <OurImpact />
+            <GetStarted />
         </div>
     );
 }
