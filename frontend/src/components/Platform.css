@@ -1,0 +1,50 @@
+.platform {
+    position: relative;
+    text-align: center;
+    padding: 5vh 0;
+    background-color: #EBF9FF;
+}
+
+.platform-box {
+    position: absolute;
+    top: 70%; /* Adjust this value as needed for correct vertical alignment */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Match the width of the Hero section */
+    height: 15vh;
+    background-color: rgba(103, 124, 132, 0.13);
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.platform h2 {
+    position: relative;
+    font-size: 3vh;
+    margin-bottom: 4vh;
+    color: #002C3D;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.platform-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin-top: 8vh; /* Adjust this value if needed */
+    z-index: 1;
+}
+
+.platform-logo {
+    width: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.platform-logo.clover {
+    height: 8vh;
+}
+
+.platform-logo.square {
+    height: 10vh;
+}
