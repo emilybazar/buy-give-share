@@ -1,9 +1,13 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 body {
   font-family: 'Fredoka', sans-serif;
+  background-color: #EBF9FF;
+  margin: 0;
+  padding: 0;
 }
 
 .App-logo {
