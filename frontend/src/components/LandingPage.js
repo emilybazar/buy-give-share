@@ -15,6 +15,7 @@ import HowItWorks from "./HowItWorks";
 import OurImpact from "./OurImpact";
 import GetStarted from "./GetStarted";
 import FoundingPartners from "./FoundingPartners";
+import Footer from "./Footer";
 
 function LandingPage() {
     return (
@@ -26,6 +27,7 @@ function LandingPage() {
             <OurImpact />
             <FoundingPartners />
             <GetStarted />
+            <Footer />
         </div>
     );
 }
