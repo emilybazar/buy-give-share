@@ -10,12 +10,14 @@ import React from 'react';
 import './LandingPage.css';
 import Header from "./Header";
 import Hero from "./Hero";
+import Platform from "./Platform";
 
 function LandingPage() {
     return (
         <div className="landing-page">
             <Header/>
             <Hero />
+            <Platform />
         </div>
     );
 }
