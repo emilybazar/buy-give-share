@@ -68,8 +68,8 @@
 
     .platform-box {
         width: calc(100% - 10vw);
-        top: 60%;
-        min-height: 10vh;
+        top: 63%;
+        min-height: 24vh;
     }
 
     .platform-logo {
@@ -84,6 +84,12 @@
 
     .platform-logos {
         gap: 2vh;
+    }
+
+    .platform-box {
+        width: calc(100% - 5vw);
+        top: 55%;
+        min-height: 25vh;
     }
 
     .platform-logo {
