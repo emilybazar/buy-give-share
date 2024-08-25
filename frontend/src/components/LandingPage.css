@@ -5,7 +5,7 @@
 }
 
 .landing-page-header {
-    padding: 20px;
+    padding: 2vh 2vw;
     text-align: center;
     background-color: #282c34;
     color: white;
@@ -13,11 +13,11 @@
 
 main {
     flex-grow: 1;
-    padding: 20px;
+    padding: 2vh 2vw;
 }
 
 footer {
-    padding: 10px;
+    padding: 1vh 2vw;
     text-align: center;
     background-color: #282c34;
     color: white;
