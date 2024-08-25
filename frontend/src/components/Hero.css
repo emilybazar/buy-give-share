@@ -2,15 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5vh 13vw;
+    padding: 5vh 13vw; /* Matches the padding of the header */
     background-color: #EBF9FF;
 }
 
 .hero-content {
     display: flex;
-    width: 100%;
-    max-width: 1440px;
-    gap: 2vw;
+    width: 100%; /* Full width within the padding */
+    gap: 2vw; /* Relative gap between left and right content */
 }
 
 .hero-left {
@@ -19,12 +18,12 @@
 }
 
 .hero-left h1 {
-    font-size: 4vh;
+    font-size: 4vh; /* Responsive font size */
     margin-bottom: 2vh;
 }
 
 .hero-left p {
-    font-size: 2vh;
+    font-size: 2vh; /* Responsive font size */
     margin-bottom: 2vh;
 }
 
@@ -36,8 +35,8 @@
 .hero-buttons .btn-primary {
     background-color: #61dafb;
     color: #002C3D;
-    padding: 1.5vh 3vw;
-    font-size: 2vh;
+    padding: 1.5vh 3vw; /* Responsive padding */
+    font-size: 2vh; /* Responsive font size */
     border: none;
     cursor: pointer;
     border-radius: 30px;
@@ -47,8 +46,8 @@
 .hero-buttons .btn-secondary {
     background-color: #282c34;
     color: white;
-    padding: 1.5vh 3vw;
-    font-size: 2vh;
+    padding: 1.5vh 3vw; /* Responsive padding */
+    font-size: 2vh; /* Responsive font size */
     border: none;
     cursor: pointer;
     border-radius: 30px;
@@ -64,7 +63,6 @@
 
 .hero-video {
     width: 100%;
-    height: 100%;
     max-width: 100%;
     aspect-ratio: 16/9;
     border: none;
