@@ -39,17 +39,15 @@
 
 .platform-logo {
     width: auto;
-    position: relative;
-    z-index: 2;
-    max-height: 10vh;
+    height: auto;
 }
 
 .platform-logo.clover {
-    height: 6vh;
+    max-height: 6vh;
 }
 
 .platform-logo.square {
-    height: 10vh;
+    max-height: 8vh;
 }
 
 @media (max-width: 768px) {
@@ -68,16 +66,16 @@
 
     .platform-box {
         width: calc(100% - 10vw);
-        top: 63%;
-        min-height: 24vh;
-    }
-
-    .platform-logo {
-        max-height: 8vh;
+        top: 65%;
+        min-height: 18vh;
     }
 }
 
 @media (max-width: 480px) {
+    .platform {
+        padding: 5vh 5vw;
+    }
+
     .platform h2 {
         font-size: 2vh;
     }
@@ -88,11 +86,11 @@
 
     .platform-box {
         width: calc(100% - 5vw);
-        top: 55%;
-        min-height: 25vh;
+        top: 64%;
+        min-height: 20vh;
     }
 
     .platform-logo {
-        max-height: 6vh;
+        max-height: 5vh;
     }
 }
