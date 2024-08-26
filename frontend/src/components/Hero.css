@@ -31,11 +31,22 @@
     flex-wrap: wrap;
 }
 
-.hero-buttons .btn {
+.hero-buttons .btn-primary, .hero-buttons .btn-secondary {
     padding: 1.5vh 3vw;
     font-size: 2vh;
+    border: none;
     border-radius: 30px;
     font-weight: bold;
+}
+
+.hero-buttons .btn-primary {
+    background-color: #61dafb;
+    color: #002C3D;
+}
+
+.hero-buttons .btn-secondary {
+    background-color: #282c34;
+    color: white;
 }
 
 .hero-right {
@@ -71,7 +82,7 @@
         font-size: 1.8vh;
     }
 
-    .hero-buttons .btn {
+    .hero-buttons .btn-primary, .hero-buttons .btn-secondary {
         font-size: 1.8vh;
     }
 }
@@ -93,7 +104,7 @@
         flex-direction: column;
     }
 
-    .hero-buttons .btn {
+    .hero-buttons .btn-primary, .hero-buttons .btn-secondary {
         width: 100%;
         padding: 1.2vh 2vw;
         font-size: 1.6vh;
