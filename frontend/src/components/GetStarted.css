@@ -8,17 +8,18 @@
 }
 
 .get-started-content {
-    width: calc(100% - 70vw);
-    max-width: 1440px;
-    padding: 5vh 2vw;
-    border-radius: 20px;
+    width: auto;
+    padding: 3vh 3vw;
+    border-radius: 30px;
     background: linear-gradient(0deg, #0B77A1 0%, #E7F2F7 99%);
     text-align: center;
     color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
 }
 
 .get-started h2 {
-    font-size: 4vh;
+    font-size: 3vh;
     margin-bottom: 2vh;
 }
 
@@ -31,9 +32,41 @@
     font-size: 2.5vh;
     cursor: pointer;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .get-started-button:hover {
     background-color: #00394c;
+    transform: scale(1.05);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .get-started-content {
+        padding: 3vh 4vw;
+    }
+
+    .get-started h2 {
+        font-size: 2.5vh;
+    }
+
+    .get-started-button {
+        padding: 1.2vh 2.5vw;
+        font-size: 2vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .get-started-content {
+        padding: 2vh 3vw;
+    }
+
+    .get-started h2 {
+        font-size: 2vh;
+    }
+
+    .get-started-button {
+        padding: 1vh 2vw;
+        font-size: 1.8vh;
+    }
 }
