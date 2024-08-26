@@ -11,6 +11,7 @@
     width: 100%;
     max-width: 1440px;
     gap: 5vw;
+    flex-direction: row;
 }
 
 .impact-video {
@@ -43,4 +44,48 @@
     font-size: 2.5vh;
     color: #333;
     margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .impact-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .impact-video, .impact-text {
+        width: 100%;
+        flex: none;
+    }
+
+    .impact-text {
+        order: 1;
+        margin-bottom: 3vh;
+    }
+
+    .impact-video {
+        order: 2;
+    }
+
+    .impact-text h2 {
+        font-size: 3.5vh;
+    }
+
+    .impact-text p {
+        font-size: 2vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .our-impact {
+        padding: 5vh 5vw;
+    }
+
+    .impact-text h2 {
+        font-size: 3vh;
+    }
+
+    .impact-text p {
+        font-size: 1.8vh;
+    }
 }
