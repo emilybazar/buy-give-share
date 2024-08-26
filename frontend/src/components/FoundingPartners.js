@@ -1,10 +1,10 @@
 // AUTHOR: Emily Bazar
 // PROGRAM: FoundingPartners.js
-// DATE:    24 August 2024
+// DATE: 24 August 2024
 // PURPOSE: This component renders the Founding Members section of the landing page with a centered title and founding member logos.
-// INPUT:   N/A
+// INPUT: N/A
 // PROCESS: Uses React to build the layout and styling.
-// OUTPUT:  Renders the Founding Members section with a title and partner logos.
+// OUTPUT: Renders the Founding Members section with a title and partner logos.
 
 import React from 'react';
 import './FoundingPartners.css';
