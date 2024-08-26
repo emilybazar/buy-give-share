@@ -27,6 +27,7 @@
     margin: 0 1vw;
     color: black;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .navigation a:hover {
