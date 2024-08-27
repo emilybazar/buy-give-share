@@ -21,7 +21,9 @@ const Header = () => {
     return (
         <header className="header">
             <div className="logo">
-                <img src={logo} alt="Buy Give Share Logo" />
+                <Link to="/">
+                    <img src={logo} alt="Buy Give Share Logo" />
+                </Link>
             </div>
             <nav className={`navigation ${isOpen ? 'open' : ''}`}>
                 <Link to="/about">About</Link>
