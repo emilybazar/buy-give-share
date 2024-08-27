@@ -7,6 +7,7 @@
 // OUTPUT: Header component with a logo, navigation links, and a responsive hamburger menu.
 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from '../assets/logos/BGSLogo.png';
 
@@ -23,10 +24,10 @@ const Header = () => {
                 <img src={logo} alt="Buy Give Share Logo" />
             </div>
             <nav className={`navigation ${isOpen ? 'open' : ''}`}>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-                <a href="#login">Log In</a>
-                <a href="#joinus">Join Us</a>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/login">Log In</Link>
+                <Link to="/joinus">Join Us</Link>
             </nav>
             <div className="hamburger" onClick={toggleMenu}>
                 <div className={`bar ${isOpen ? 'open' : ''}`}></div>
