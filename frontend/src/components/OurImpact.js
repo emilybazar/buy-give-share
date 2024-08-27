@@ -25,7 +25,8 @@ function OurImpact() {
                     <h2>OUR IMPACT</h2>
                     <p>
                         Discover how your involvement can make a difference.<br/>
-                        Watch this impact video from Made in Washington to see the positive change you can help create.
+                        Watch this impact video our platform created that shared how a partnership with
+                        a local business and a local charity made a difference to the community!
                     </p>
                 </div>
             </div>
