@@ -57,11 +57,10 @@ function HowItWorks() {
                         <ul>
                             <li><img src={HeartCheckClipArt} alt="Clipart 6"/> 1. Sign Up</li>
                             <li><img src={HandshakeClipArt} alt="Clipart 7"/> 2. Approve Promotion</li>
-                            <li><img src={DonationClipArt} alt="Clipart 8"/> 3. Receive Support</li>
-                            <li><img src={ListCheckedClipArt} alt="Clipart 9"/> 4. Promotion Ends</li>
-                            <li><img src={VideoClipArt} alt="Clipart 10"/> 5. Record Short "Thank You!" Clip</li>
-                            <li><img src={SendClipArt} alt="Clipart 11"/> 6. Impact Video Sent</li>
-
+                            <li><img src={ListCheckedClipArt} alt="Clipart 8"/> 3. Promotion Ends</li>
+                            <li><img src={VideoClipArt} alt="Clipart 9"/> 4. Record Short "Thank You!" Clip</li>
+                            <li><img src={SendClipArt} alt="Clipart 10"/> 5. Impact Video Sent</li>
+                            <li><img src={DonationClipArt} alt="Clipart 11"/> 6. Receive Support</li>
                         </ul>
                     </div>
                 </div>
