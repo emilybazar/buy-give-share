@@ -9,7 +9,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from '../assets/logos/BGSLogo.png';
+import logo from '../../assets/logos/BGSLogo.png';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);

@@ -8,9 +8,9 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import LandingPage from './components/LandingPage';
-import AboutPage from "./components/AboutPage";
-import Header from "./components/Header";
+import LandingPage from './components/LandingPage/LandingPage';
+import AboutPage from "./components/AboutPage/AboutPage";
+import Header from "./components/General/Header";
 import './App.css';
 import ContactPage from "./components/ContactPage";
 

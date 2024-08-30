@@ -10,14 +10,14 @@ import React from 'react';
 import './HowItWorks.css';
 
 // Import individual images
-import PersonAddClipArt from '../assets/clipart/PersonAddClipArt.png';
-import HeartCheckClipArt from '../assets/clipart/HeartCheckClipArt.png';
-import HandshakeClipArt from '../assets/clipart/HandshakeClipArt.png';
-import EditNoteClipArt from '../assets/clipart/EditNoteClipArt.png';
-import ListCheckedClipArt from '../assets/clipart/ListCheckedClipArt.png';
-import SendClipArt from '../assets/clipart/SendClipArt.png';
-import DonationClipArt from '../assets/clipart/DonationClipArt.png';
-import VideoClipArt from '../assets/clipart/VideoClipArt.png';
+import PersonAddClipArt from '../../assets/clipart/PersonAddClipArt.png';
+import HeartCheckClipArt from '../../assets/clipart/HeartCheckClipArt.png';
+import HandshakeClipArt from '../../assets/clipart/HandshakeClipArt.png';
+import EditNoteClipArt from '../../assets/clipart/EditNoteClipArt.png';
+import ListCheckedClipArt from '../../assets/clipart/ListCheckedClipArt.png';
+import SendClipArt from '../../assets/clipart/SendClipArt.png';
+import DonationClipArt from '../../assets/clipart/DonationClipArt.png';
+import VideoClipArt from '../../assets/clipart/VideoClipArt.png';
 
 function HowItWorks() {
     return (

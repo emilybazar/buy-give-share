@@ -8,7 +8,7 @@
 
 import React from 'react';
 import './Footer.css';
-import FacebookLogo from '../assets/socialmedia/FacebookLogo.png';
+import FacebookLogo from '../../assets/socialmedia/FacebookLogo.png';
 
 function Footer() {
     return (

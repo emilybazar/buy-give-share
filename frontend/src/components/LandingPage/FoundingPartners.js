@@ -8,10 +8,10 @@
 
 import React from 'react';
 import './FoundingPartners.css';
-import MadeInWashingtonLogo from '../assets/logos/MadeInWashingtonLogo.png';
-import BirthdayDreamsLogo from '../assets/logos/BirthdayDreamsLogo.png';
-import PugetSoundkeeperLogo from '../assets/logos/PugetSoundkeeperLogo.png';
-import SR3Logo from '../assets/logos/SR3Logo.png';
+import MadeInWashingtonLogo from '../../assets/logos/MadeInWashingtonLogo.png';
+import BirthdayDreamsLogo from '../../assets/logos/BirthdayDreamsLogo.png';
+import PugetSoundkeeperLogo from '../../assets/logos/PugetSoundkeeperLogo.png';
+import SR3Logo from '../../assets/logos/SR3Logo.png';
 
 function FoundingPartners() {
     return (

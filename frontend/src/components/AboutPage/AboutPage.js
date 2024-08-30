@@ -10,11 +10,11 @@
 
 import React from 'react';
 import './AboutPage.css';
-import EmilyBazar from '../assets/team/EmilyBazar.png';
-import IvanLo from '../assets/team/IvanLo.png';
-import JamesWang from '../assets/team/JamesWang.png';
-import TimEconomides from '../assets/team/TimEconomides.png';
-import JosiahYu from '../assets/team/JosiahYu.png';
+import EmilyBazar from '../../assets/team/EmilyBazar.png';
+import IvanLo from '../../assets/team/IvanLo.png';
+import JamesWang from '../../assets/team/JamesWang.png';
+import TimEconomides from '../../assets/team/TimEconomides.png';
+import JosiahYu from '../../assets/team/JosiahYu.png';
 
 const AboutPage = () => {
     return (
