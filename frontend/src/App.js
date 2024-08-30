@@ -12,6 +12,7 @@ import LandingPage from './components/LandingPage';
 import AboutPage from "./components/AboutPage";
 import Header from "./components/Header";
 import './App.css';
+import ContactPage from "./components/ContactPage";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<LandingPage />} />
                     <Route path="/about" element={<AboutPage />} />
+                    <Route path="/contact" element={<ContactPage />} />
                 </Routes>
             </div>
         </Router>
