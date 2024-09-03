@@ -1,0 +1,49 @@
+.value-statements {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e7f2f7;
+    border-left: 5px solid #0b77a1;
+    border-radius: 10px;
+}
+
+.value-statements h2 {
+    color: #005577;
+    font-size: 1.75em;
+    margin-bottom: 15px;
+}
+
+.value-statements p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .value-statements {
+        padding: 15px;
+    }
+
+    .value-statements h2 {
+        font-size: 1.5em;
+    }
+
+    .value-statements p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .value-statements {
+        padding: 10px;
+    }
+
+    .value-statements h2 {
+        font-size: 1.25em;
+    }
+
+    .value-statements p {
+        font-size: 0.9em;
+    }
+}
