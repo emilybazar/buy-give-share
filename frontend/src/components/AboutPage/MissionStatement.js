@@ -15,7 +15,7 @@ const MissionStatement = () => {
         <div className="mission-statement about-box">
             <h2>Our Mission</h2>
             <p>
-                Our Mission is to positively impact the world by bringing more transparency to donations
+                To positively impact the world by bringing more transparency to donations
                 to non-profit organizations using innovative business strategies and modern technology.
             </p>
         </div>
