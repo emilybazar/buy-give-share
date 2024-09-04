@@ -99,9 +99,9 @@ const MeetOurTeam = () => {
                 <img src={EmilyBazar} alt="Emily Bazar" />
                 <div>
                     <h3>Emily Bazar</h3>
-                    <p>Lead Software Engineer</p>
+                    <p>Chief Software Engineer</p>
                     <p>
-                        Emily comes to Buy Give Share as the Lead Software Engineer, marking the start of her career in software development. She holds a B.S. in Biology from the University of
+                        Emily comes to Buy Give Share as the Chief Software Engineer, marking the start of her career in software development. She holds a B.S. in Biology from the University of
                         Washington and is currently pursuing her M.S. in Computer Science at Seattle University.
                     </p>
                     <p>

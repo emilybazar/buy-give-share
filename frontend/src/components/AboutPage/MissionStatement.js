@@ -13,7 +13,7 @@ import './MissionStatement.css';
 const MissionStatement = () => {
     return (
         <div className="mission-statement about-box">
-            <h2>Mission Statement</h2>
+            <h2>Our Mission</h2>
             <p>
                 Our Mission is to positively impact the world by bringing more transparency to donations
                 to non-profit organizations using innovative business strategies and modern technology.

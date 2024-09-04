@@ -13,7 +13,7 @@ import './ValueStatements.css';
 const ValueStatements = () => {
     return (
         <div className="value-statements about-box">
-            <h2>Value Statements</h2>
+            <h2>Our Values</h2>
             <p>
                 We believe that ALL people want to positively give back to society but can be sometimes
                 limited by external factors.

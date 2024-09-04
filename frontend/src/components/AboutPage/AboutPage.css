@@ -2,6 +2,7 @@
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    color: #002C3D;
 }
 
 .about-page h1 {
@@ -11,6 +12,7 @@
     color: #005577;
 }
 
+/* Responsive styles */
 @media (max-width: 768px) {
     .about-page h1 {
         font-size: 2em;

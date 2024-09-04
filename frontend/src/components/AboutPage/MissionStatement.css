@@ -1,24 +1,26 @@
 .mission-statement {
     margin: 20px 0;
     padding: 20px;
-    background-color: #ebf4ff;
-    border-left: 5px solid #0b77a1;
+    background-color: #BCECFF;
+    border-left: 5px solid #005577;
     border-radius: 10px;
+    color: #002C3D;
+    text-align: left;
 }
 
 .mission-statement h2 {
     color: #005577;
     font-size: 1.75em;
     margin-bottom: 15px;
+    font-style: italic;
 }
 
 .mission-statement p {
     font-size: 1.1em;
     line-height: 1.6;
-    color: #333;
+    color: #002C3D;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
     .mission-statement {
         padding: 15px;
