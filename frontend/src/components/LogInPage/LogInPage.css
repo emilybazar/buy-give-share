@@ -1,0 +1,75 @@
+/* Basic styles for the login page */
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #CED7DB; /* Light background color */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #005577;
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #002C3D;
+    font-weight: bold;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fff;
+    color: #002C3D;
+}
+
+.login-form input:focus {
+    border-color: #005577;
+    outline: none;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5EC5ED;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #004466;
+}
+
+.signup-link {
+    margin-top: 20px;
+    color: #005577;
+}
+
+.signup-link a {
+    color: #005577;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

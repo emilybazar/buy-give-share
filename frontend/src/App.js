@@ -11,8 +11,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
 import AboutPage from "./components/AboutPage/AboutPage";
 import Header from "./components/General/Header";
+import ContactPage from "./components/ContactPage/ContactPage";
+import LogInPage from "./components/LogInPage/LogInPage";
 import './App.css';
-import ContactPage from "./components/ContactPage";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                     <Route path="/" element={<LandingPage />} />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/contact" element={<ContactPage />} />
+                    <Route path="/login" element={<LogInPage />} />
                 </Routes>
             </div>
         </Router>
