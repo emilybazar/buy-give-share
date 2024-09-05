@@ -1,0 +1,86 @@
+.join-us-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #002C3D;
+}
+
+.join-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.join-intro h1 {
+    font-size: 2.5em;
+    color: #005577;
+}
+
+.join-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.join-options div {
+    width: 45%;
+    text-align: center;
+}
+
+.join-options h2 {
+    font-size: 2em;
+    color: #005577;
+    margin-bottom: 20px;
+}
+
+.join-options p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005577;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #004466;
+}
+
+.how-it-works {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.how-it-works h2 {
+    font-size: 2.5em;
+    color: #005577;
+    margin-bottom: 30px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps .step {
+    width: 22%;
+    padding: 20px;
+    background-color: #EBF9FF;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.steps h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.steps p {
+    font-size: 1.1em;
+}

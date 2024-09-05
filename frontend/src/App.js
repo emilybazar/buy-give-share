@@ -13,6 +13,7 @@ import AboutPage from "./components/AboutPage/AboutPage";
 import Header from "./components/General/Header";
 import ContactPage from "./components/ContactPage/ContactPage";
 import LogInPage from "./components/LogInPage/LogInPage";
+import JoinUsPage from "./components/JoinUsPage/JoinUsPage";
 import './App.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/contact" element={<ContactPage />} />
                     <Route path="/login" element={<LogInPage />} />
+                    <Route path="/joinus" element={<JoinUsPage />} />
                 </Routes>
             </div>
         </Router>
