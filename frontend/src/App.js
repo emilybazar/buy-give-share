@@ -15,6 +15,7 @@ import ContactPage from "./components/ContactPage/ContactPage";
 import LogInPage from "./components/LogInPage/LogInPage";
 import JoinUsPage from "./components/JoinUsPage/JoinUsPage";
 import BusinessSignUp from "./components/SignUp/BusinessSignUp";
+import CharitySignUp from "./components/SignUp/CharitySignUp";
 import './App.css';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
                     <Route path="/login" element={<LogInPage />} />
                     <Route path="/joinus" element={<JoinUsPage />} />
                     <Route path="/business-signup" element={<BusinessSignUp />} />
+                    <Route path="/charity-signup" element={<CharitySignUp />} />
                 </Routes>
             </div>
         </Router>
