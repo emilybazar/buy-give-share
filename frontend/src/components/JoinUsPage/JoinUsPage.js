@@ -20,37 +20,41 @@ const JoinUs = () => {
             <section className="join-options">
                 <div className="join-business">
                     <h2>For Businesses</h2>
-                    <p>Increase visibility, promote verified donations, and build strong relationships with charities through Buy Give Share.</p>
+                    <p>Effortlessly connect with charities, streamline donation tracking with POS system integration,
+                        and enjoy free marketing through impactful videos, all on our platform.</p>
                     <a href="/business-signup" className="cta-button">Join as a Business</a>
                 </div>
                 <div className="join-charity">
                     <h2>For Charities</h2>
-                    <p>Connect with businesses, simplify your donation process, and ensure transparency with our platform.</p>
+                    <p>Partner with businesses, simplify donation management, and ensure transparency between all
+                        parties with our platform.</p>
                     <a href="/charity-signup" className="cta-button">Join as a Charity</a>
                 </div>
             </section>
+
 
             <section className="how-it-works">
                 <h2>How It Works</h2>
                 <div className="steps">
                     <div className="step">
                         <h3>Step 1</h3>
-                        <p>Create your profile</p>
+                        <p>Create your profile and get started</p>
                     </div>
                     <div className="step">
                         <h3>Step 2</h3>
-                        <p>Select a charity/business to partner with</p>
+                        <p>Search the directory, message businesses or charities, and agree on a promotion</p>
                     </div>
                     <div className="step">
                         <h3>Step 3</h3>
-                        <p>Track and verify donations</p>
+                        <p>Track donations using our platform's dashboard and detailed stats</p>
                     </div>
                     <div className="step">
                         <h3>Step 4</h3>
-                        <p>Share your impact</p>
+                        <p>At the end of the promotion, we'll create and send your impact video</p>
                     </div>
                 </div>
             </section>
+
         </div>
     );
 };
