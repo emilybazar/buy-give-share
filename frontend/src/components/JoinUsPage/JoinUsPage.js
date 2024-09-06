@@ -46,11 +46,11 @@ const JoinUs = () => {
                     </div>
                     <div className="step">
                         <h3>Step 3</h3>
-                        <p>Track donations using our platform's dashboard and detailed stats</p>
+                        <p>Track donations using our platform's dashboard and detailed tracking</p>
                     </div>
                     <div className="step">
                         <h3>Step 4</h3>
-                        <p>At the end of the promotion, we'll create and send your impact video</p>
+                        <p>At the end of the promotion, we'll create and share your impact video</p>
                     </div>
                 </div>
             </section>
