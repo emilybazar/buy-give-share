@@ -46,8 +46,8 @@ const LogInPage = () => {
                 </div>
                 <button type="submit" className="login-button">Log In</button>
             </form>
-            <p className="signup-link">
-                Don’t have an account? <a href="/signup">Sign Up</a>
+            <p className="join-us-link">
+                Don’t have an account? <a href="/joinus">Join Us</a>
             </p>
         </div>
     );

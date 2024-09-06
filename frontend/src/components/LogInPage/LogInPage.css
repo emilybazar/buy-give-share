@@ -59,17 +59,17 @@
     background-color: #004466;
 }
 
-.signup-link {
+.join-us-link {
     margin-top: 20px;
     color: #005577;
 }
 
-.signup-link a {
+.join-us-link a {
     color: #005577;
     text-decoration: none;
     font-weight: bold;
 }
 
-.signup-link a:hover {
+.join-us-link a:hover {
     text-decoration: underline;
 }
