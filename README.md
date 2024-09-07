@@ -7,6 +7,8 @@ Buy Give Share is a platform designed to connect businesses and charities to fac
 ## Author
 Emily Bazar is the Chief Software Engineer at Buy Give Share. As the sole full-stack developer on the founding team of five, she leads the technical development of the platform, driving both the front-end and back-end engineering efforts.
 
+As a current Master's student in Computer Science at Seattle University, Emily is continuously expanding her knowledge and honing her skills. She embraces new challenges and uses every project as an opportunity to grow, applying what she learns to improve the platform.
+
 ## Technology Stack
 
 ### Frontend
