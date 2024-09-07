@@ -36,14 +36,15 @@ Developed using React and organized into components and utility files. The proje
   - **`App.js`**: Serves as the root component that orchestrates the rendering of the entire application.
   - **`index.js`**: Entry point for React rendering, setting up the root component and linking to the HTML document.
   - **`setupTests.js`**: Configures the testing framework for React components.
-  - **`/components`**: Houses reusable React components such as `LandingPage`.
-  - **`/pages`**: Contains page components for the platform, including:
-    - **AboutPage.js**: Contains the 'About Us' information.
-    - **JoinUsPage.js**: Provides an overview of the benefits of joining the platform for both businesses and charities.
-    - **LogInPage.js**: Facilitates user login.
-    - **SignUpPage.js**: Manages the sign-up flow.
-    - **General.js**: General header and footer for pages.
-    - **/assets**: Contains images used throughout the site.
+  - **`/components`**: Houses reusable React components.
+    - **`/pages`**: Contains page components for the platform, including:
+      - **AboutPage.js**: Displays the 'About Us' information.
+      - **JoinUsPage.js**: Highlights the benefits of joining the platform for businesses and charities, with links to their respective sign-up pages.
+      - **LogInPage.js**: Manages user authentication and login process.
+      - **SignUpPage.js**: Handles the user registration flow.
+      - **General.js**: Provides common elements like the header and footer for other pages.
+  - **`/assets`**: Contains images used throughout the site.
+
 
 ## Usage
 
