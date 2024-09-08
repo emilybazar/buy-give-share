@@ -14,8 +14,8 @@ import Header from "./components/General/Header";
 import ContactPage from "./components/ContactPage/ContactPage";
 import LogInPage from "./components/LogInPage/LogInPage";
 import JoinUsPage from "./components/JoinUsPage/JoinUsPage";
-import BusinessSignUp from "./components/SignUp/BusinessSignUp";
-import CharitySignUp from "./components/SignUp/CharitySignUp";
+import BusinessSignUp from "./components/SignUpPage/BusinessSignUp";
+import CharitySignUp from "./components/SignUpPage/CharitySignUp";
 import './App.css';
 
 function App() {
