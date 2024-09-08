@@ -40,6 +40,7 @@ Developed using React and organized into components and utility files. The proje
   - **`setupTests.js`**: Configures the testing framework for React components.
   - **`/components`**: Houses reusable React components.
     - **`/pages`**: Contains page components for the platform, including:
+      - **LandingPage.js**: Provides overview of Buy Give Share and its purpose and features
       - **AboutPage.js**: Displays the 'About Us' information.
       - **JoinUsPage.js**: Highlights the benefits of joining the platform for businesses and charities, with links to their respective sign-up pages.
       - **LogInPage.js**: Manages user authentication and login process.
